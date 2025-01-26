@@ -1,0 +1,160 @@
+*{
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.highlight {
+  color: #00F752;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: 70px;
+  gap: 70px;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+li a:hover {
+  color: #00F752;
+}
+
+.btn1 {
+  color: black;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  border-left: 2px solid #1915ff;
+  border-top: 2px solid #1915ff;
+  border-right: 2px solid #d415ff;
+  border-bottom: 2px solid #d415ff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn1:hover {
+  background-image: linear-gradient(45deg, #1915ff, #D415FF);
+  color: white;
+}
+
+.btn2 {
+  color: white;
+  font-weight: medium;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #1915ff, #D415FF);
+  border-top-right-radius: 0;
+  transition: 0.3s;
+}
+
+.btn2:hover{
+  border-top-right-radius: 30px;
+}
+
+.content {
+  text-align: left;  
+  margin-top: 100px;
+  padding-left: 50px;  
+  position: relative;
+}
+
+.content h2{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+  animation-delay: 0.5s;
+}
+
+.content h1{
+  font-size: 80px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  animation-delay: 1s;
+}
+.content p{
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  animation-delay: 1.5s;
+}
+
+.btn3 {
+  color: white;
+  font-weight: medium;
+  text-decoration: none;
+  padding: 15px 80px;
+  margin-left: 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #1915ff, #D415FF);
+  border-top-right-radius: 0;
+  transition: 0.3s;
+}
+
+.btn3.animation{
+  animation-delay: 2s;
+}
+
+.btn3:hover{
+  border-top-right-radius: 30px;
+}
+
+.feature-img {
+  width: 500px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  margin-top: 70px;
+  margin-right: 20px;
+  background: transparent;
+}
+
+.feature-img.animation{
+  animation-delay: 2.5s;
+}
+
+.animation{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
