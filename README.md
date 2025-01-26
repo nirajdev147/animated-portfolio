@@ -2,6 +2,6 @@
 
 Note: This website is not fully responsive
 
-# Here is the video📹
+# Here is the Screenshot📸
 
-[video](https://github.com/nirajdev147/animated-portfolio/raw/main/video.mp4)
+<img src="./assests/ss.png">
