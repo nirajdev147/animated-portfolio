@@ -4,4 +4,4 @@ Note: This website is not fully responsive
 
 # Here is the video📹
 
-(https://github.com/nirajdev147/Animated_ Portfolio/main/video.mp4)
+(https://github.com/nirajdev147/animated-portfolio/main/video.mp4)
