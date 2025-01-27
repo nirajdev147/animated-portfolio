@@ -8,4 +8,4 @@ Note: This website is not fully responsive
 
 # Here is the animated video📹
 
-https://github.com/nirajdev147/animated-portfolio/blob/0ffc9c9d3400c60bdc684081f255b37852ea77de/assests/video.mp4
+https://drive.google.com/file/d/1Q21o_5lFFLNY02MN30SsXkaeB27X6AWe/view?usp=drive_link
