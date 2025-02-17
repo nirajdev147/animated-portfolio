@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +22,7 @@ body {
   margin-left: 20px;
   font-size: 30px;
   font-weight: 700;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ ul {
 }
 
 li a {
-  color: black;
+  color: whitesmoke;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -47,7 +47,7 @@ li a:hover {
 }
 
 .btn1 {
-  color: black;
+  color: white;
   margin-right: 20px;
   display: inline-block;
   padding: 10px 20px;
@@ -81,14 +81,14 @@ li a:hover {
   border-top-right-radius: 30px;
 }
 
-.content {
+.clearfix {
   text-align: left;  
   margin-top: 100px;
   padding-left: 50px;  
   position: relative;
 }
 
-.content h2{
+.clearfix h2{
   font-size: 30px;
   margin-left: 20px;
   margin-bottom: 0;
@@ -96,14 +96,14 @@ li a:hover {
   animation-delay: 0.5s;
 }
 
-.content h1{
+.clearfix h1{
   font-size: 80px;
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
   animation-delay: 1s;
 }
-.content p{
+.clearfix p{
   font-size: 1rem;
   margin-left: 20px;
   margin-top: 30px;
@@ -133,13 +133,15 @@ li a:hover {
 }
 
 .feature-img {
-  width: 500px;
-  position: absolute;
-  right: 30px;
-  top: 50px;
-  margin-top: 70px;
+  float: right;
   margin-right: 20px;
-  background: transparent;
+  margin-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .feature-img.animation{
