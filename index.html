@@ -1,85 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <a href="#" class="logo">About<span class="highlight">Me</span></a>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#service">Service</a></li>
-          <li><a href="#blog">Blog<i class="fa-solid fa-angle-down"></i></a></li>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#blog">Blog <i class="fa-solid fa-angle-down"></i></a></li>
         </ul>
-        <div>
-          <a href="#" class="btn1">Contact</a> 
-          <a href="#" class="btn2">Download Resume</a>
+        <div class="nav-buttons">
+            <a href="#" class="btn1">Contact</a>
+            <a href="#" class="btn2">Download Resume</a>
         </div>
-      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="hero-content">
+            <h2 class="animation">Hi,</h2>
+            <h1 class="animation">I'm <span class="highlight">Niraj Dev</span></h1>
+            <h3 class="animation">- UI/UX Designer</h3>
+            <p class="animation">
+                "I create user-friendly and visually engaging designs to bring ideas to life."
+            </p>
+            <a href="#" class="btn3 animation">Contact me</a>
+        </div>
+        <img src="./assests/profile-pic.png" class="feature-img animation" width="450" height="450"/>
     </header>
 
-    <div class="clearfix">
-      <img src="./assests/profile-pic.png" class="feature-img animation" width="450" height="450"/>
-      <h2 class="animation">Hi,</h2>
-      <h1 class="animation">
-        I'm <span class="highlight">Niraj Dev</span>
-        <br>
-        -UI/UX Designer
-      </h1>
-      <p class="animation">
-        "I create user-friendly and visually engaging designs to bring ideas to life."
-      </p>
-      <a href="#" class="btn3 animation">Contact me</a>
-    </div>
-    
-    <h2 class="service animation">My <span class="highlight">Service</span></h2>
-    
-    <div class="feature-section animation">
-      <div class="feature-card animation">
-        <div class="icon">
-          <i class="fa-solid fa-laptop-code"></i>
+    <!-- Services Section -->
+    <section class="services" id="service">
+        <h2 class="section-title animation">My <span class="highlight">Services</span></h2>
+        <div class="card-container">
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="card-content">
+                    <h3>Web Development</h3>
+                    <p>
+                        I build and develop responsive websites that ensure an optimal user experience across all devices, blending functionality with aesthetic appeal.
+                    </p>
+                    <a href="#" class="btn4">Learn More..</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <div class="card-content">
+                    <h3>Design in Figma</h3>
+                    <p>
+                        I design user interfaces and experiences in Figma, creating interactive prototypes that enhance user engagement.
+                    </p>
+                    <a href="#" class="btn4">Learn More..</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-chart-simple"></i></div>
+                <div class="card-content">
+                    <h3>Data Expertise</h3>
+                    <p>
+                        I leverage data analysis to drive design decisions, optimizing user experience and performance based on real-world insights.
+                    </p>
+                    <a href="#" class="btn4">Learn More..</a>
+                </div>
+            </div>
         </div>
-        <h3>Web Development</h3>
-        <p>I specialize in creating modern websites using HTML, CSS, and JavaScript.</p>
-        <a href="#" class="btn4">Learn More..</a>
-      </div>
+    </section>
 
-
-      <div class="feature-card animation">
-        <div class="icon">
-          <i class="fa-brands fa-figma"></i>
-        </div>
-        <h3>Figma Design</h3>
-        <p>I help design and develop user-friendly digital experiences using Figma.</p>
-        <a href="#" class="btn4">Learn More..</a>
-      </div>
-
-
-      <div class="feature-card animation">
-        <div class="icon">
-          <i class="fa-solid fa-chart-simple"></i>
-        </div>
-        <h3>Data Expertise</h3>
-        <p>I analyze and visualize data to provide insights and drive decisions.</p>
-        <a href="#" class="btn4">Learn More..</a>
-      </div>
-    </div>
-    <div class="button5">
-      <a href="#" class="btn5 animation">See More..</a>
-    </div>
-    
-  </body>
+</body>
 </html>
